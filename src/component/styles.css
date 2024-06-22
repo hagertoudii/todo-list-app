@@ -1,0 +1,176 @@
+*{
+    box-sizing:border-box;
+    clear: both;
+    
+}
+.brand-nav{
+    box-sizing: border-box;
+    
+}
+h1.brand{
+    border-bottom:2px solid #885353;
+    /* font-weight: 900; */
+    
+    /* font-size: calc(3.625rem + 7.5vw); */
+    font-size: 11.5vw;
+    font-weight: 400;
+    line-height: 1.1;
+    width:100%;
+    letter-spacing: 2vh;
+    margin:auto;
+    
+}
+
+/* .Add-btn{
+    
+} */
+div.hidden{
+    display: none;
+}
+
+
+
+/*  .card   //     .container   /////   .Add button
+
+    We Must make Fix that 
+
+    1- max-width (768) fix {.container >>> padding Left and Right} and  {button}
+
+    2- max-width (442) fix   {.card}
+
+    3- in small screen {font-size .. >> small} and {stroke SVG ..>> small } we must less 
+    
+
+*/
+.card{
+    background-color: #F2EBBF !important; 
+    max-width: 100%;
+
+} 
+
+
+.list-todo{
+    background-color: #885353;
+    
+    width:100%
+}
+
+.list-todo:hover{
+    transform: scale(1.02);
+   font-weight:  pold;
+    color: rgb(136, 83, 83);
+}
+/*btn-bg: transparent;   شفاف*/
+
+div.divedit{
+    position:relative;
+    background-color:white ;
+    color: rgb(136, 83, 83);
+    border: none;
+}
+
+/* // input edit  */
+div.divedit .inputedit{
+    background-color: transparent;
+    border: none;
+    color:rgb(136, 83, 83);
+    outline: none;
+    height: 30px;
+    font-size: 2rem;
+}
+
+div.divedit .inputedit:hover{
+    text-decoration:none   !important
+}
+
+.trash, .Edit, .okchange {
+    outline-style: none;
+    background-color: #F2EBBF;
+    border: none;
+    padding:0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.25rem;
+}
+.trash:hover ,.okchange:hover{
+    background-color: #dc3545;
+}
+.Edit:hover
+{
+    background-color:#8a949b
+}
+.trash:hover svg path, .Edit:hover svg path, .okchange:hover svg path{
+    stroke: #F2EBBF;
+    
+}
+
+ 
+ 
+
+ @media (max-width: 768px) { 
+    .brand{
+        letter-spacing: 2vh;
+        max-width: 100%;
+    }
+    
+    .container{
+        max-width: 100%;
+        
+    }
+    
+} 
+
+@media (max-width: 576px) { 
+    
+    .brand{
+        letter-spacing: 1vh;
+    }
+    .card{
+        width: 100%;
+    }
+    
+
+ }  
+
+/*
+ @media (min-width: 576px) { ... } sm
+
+ @media (min-width: 768px) { ... } md
+
+ @media (min-width: 992px) { ... } lg
+
+ @media (min-width: 1200px) { ... } xl
+
+*/
+
+
+/* 
+    @media (max-width: 575.98px) { ... } xs
+
+    // Small devices (landscape phones, less than 768px)
+    @media (max-width: 767.98px) { ... }
+
+    // Medium devices (tablets, less than 992px)
+    @media (max-width: 991.98px) { ... }
+
+    // Large devices (desktops, less than 1200px)
+    @media (max-width: 1199.98px) { ... }
+
+ */
+ 
+
+/*
+    // Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } 
+*/
